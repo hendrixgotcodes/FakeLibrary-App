@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.success,
+.error, .warning {
+  width: 100%;
+  color: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px; }
+
+.success {
+  background-color: rgba(76, 190, 76, 0.8); }
+
+.error {
+  background-color: rgba(230, 34, 20, 0.8); }
+
+.warning {
+  background-color: rgba(222, 233, 121, 0.8); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato, sans-serif; }
+
+input {
+  display: block;
+  width: 100%;
+  height: 40%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  border: 1px solid #888;
+  border-radius: 4px;
+  margin-top: 0.5rem; }
+
+main {
+  margin: auto;
+  width: 60%;
+  padding: 0.8rem 3rem;
+  transition: 0.5s; }
+  main h1 {
+    margin: 1rem 0; }
+  main .content {
+    height: 50%;
+    width: 100%; }
+    main .content .book {
+      height: 70%;
+      margin: 1rem 0; }
+    main .content label {
+      display: block;
+      width: 100%;
+      height: 35%;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.8rem; }
+    main .content button {
+      background-color: #31830b;
+      color: #fff;
+      width: 100%;
+      height: 3rem;
+      margin-top: 1.4rem;
+      border: 1px solid #888;
+      border-radius: 4px; }
+  main hr {
+    margin: 2rem 0;
+    height: 0.1px;
+    border: 1px solid #ddd;
+    border-top: none; }
+  main table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse; }
+  main th,
+  main td {
+    border-bottom: 1px solid #ddd;
+    padding: 0.8rem 0; }
+  main thead {
+    height: 20%; }
+  main tbody {
+    overflow: scroll; }
+  main .fa-trash {
+    cursor: pointer;
+    padding-left: .5rem;
+    transition: 0.3s; }
+    main .fa-trash:hover {
+      color: red; }
+
+@media only screen and (max-width: 1024px) {
+  main {
+    width: 80%; } }
+
+@media only screen and (max-width: 500px) {
+  main {
+    width: 100%;
+    padding: 0.8rem 1.5rem; } }
